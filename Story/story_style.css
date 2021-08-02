@@ -1,0 +1,133 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color:#222831;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	padding:25px 0;
+}
+.navbar .logo{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+.story{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    width: 80%;
+    height: 30px;
+}
+.story-section{
+    background-color: #f8dc81;
+    overflow: hidden;
+    padding: 80px 0;
+    border-radius: 25px;
+}
+
+.image{
+    position: absolute;
+    left: 3%;
+    top: 290%;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 14px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.page{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page ul{
+    background: whitesmoke;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0.2);
+}
+
+.page ul li{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.page ul li.pagenumber
+{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.page ul li a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.page ul li.pagenumber:hover a,
+.page ul li.pagenumber.active a
+{
+    background: #333;
+    color: #fff;
+}
+
+.page ul li:first-child{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+

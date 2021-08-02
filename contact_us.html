@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <META HTTP-EQUIV="refresh" CONTENT="15">
+        <meta charset="utf-8"/>
+        <title>A N I M A L Z</title>
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <!-- jquery cdn -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <meta name="viewport" content="width=device-width, initial-sale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel = "stylesheet" type="text/css" href="Contact Us/contact_us_style.css">
+        <link rel="shortcut icon" href="Home/test1.ico"/>
+    </head>
+    <body>
+        <div class="col-md-12 navbar">
+                <a href="index.html" class="logo navbar-brand text-white offset-md-2">
+                    <img src="Home/test.png" alt="logo" width="50" height="50">
+                        A n i m a l z
+                    </a>  
+				
+				<ul class="nav">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about_us.html" class="nav-link">About Us</a></li>
+					<li class="nav-item active"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div>
+        <section class="contact">
+            <div class="container">
+                <div class="contactForm">
+                    <form action="MAILTO:jars.5199@gmail.com" method="post" enctype="text/plain" name="form">
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                <div class="text"><br>
+                                    <h3><b>SEND MESSAGE</b></h3>
+                                </div>
+                        </div>
+                            <div class="inputBox">
+                                <input type="text" name="Full Name " required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="Email " required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required" name="Comment "></textarea>
+                                <span>Type your message...</span>
+                            </div>
+                            
+                            <div class="inputBox">
+                                <input type="submit" value="Send" id="btnsubmit" onclick="submitForm()">
+                            </div>
+                            <script src="js/contact.js"></script>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </body>
+   
+</html>
